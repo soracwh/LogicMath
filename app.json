@@ -1,13 +1,39 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/study/study",
+    "pages/userPage/userPage",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#4697fa",
+    "navigationBarTitleText": "逻辑数学站",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/tab/index.png",
+        "selectedIconPath": "image/tab/index_target.png"
+      },
+      {
+        "pagePath":"pages/study/study",
+        "text": "学习",
+        "iconPath": "image/tab/study.png",
+        "selectedIconPath": "image/tab/study_target.png"
+      },
+      {
+        "pagePath": "pages/userPage/userPage",
+        "text": "学习",
+        "iconPath": "image/tab/user.png",
+        "selectedIconPath": "image/tab/user_target.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
